@@ -1,6 +1,8 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './Components/header';
 import Menu from './Components/menu';
+import Calendar from './Components/Calendar/calendar';
 
 class Main extends React.Component {
     constructor(props){
@@ -14,8 +16,13 @@ class Main extends React.Component {
     render() {
         return (
             <div>
-                <Header/>
-                <Menu/>
+                <Router>
+                    <div>
+                        <Header/>
+                        <Menu/>
+                        <Route exact path='/' component={Calendar}/> 
+                    </div>
+                </Router>
             </div>
         )
     }
