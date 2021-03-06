@@ -20,7 +20,8 @@ class Main extends React.Component {
                     <div>
                         <Header/>
                         <Menu/>
-                        <Route exact path='/' component={Calendar}/> 
+                        <Route exact path='/' component={Calendar}/>
+                        <Route exact path='/calendar' component={Calendar}/> 
                     </div>
                 </Router>
             </div>
