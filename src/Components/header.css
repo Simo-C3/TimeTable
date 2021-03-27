@@ -69,35 +69,77 @@
     padding-inline-start: 40px;
 }
 
-.link-item1-1, .link-item1-2, .link-item1-3, .link-item2{
+.link-item1-1, .link-item1-2, .link-item1-3{
     display: inline-block;
     vertical-align: top;
     font-size: 1rem;
     letter-spacing: normal;
     word-spacing: normal;
     margin-left: 40px;
+    width: 35px;
+    height: 35px;
+    background-size: 30px 30px;
 }
 
-.link-item1-1{
-    overflow: hidden;
+.link1-1{
     background: url(../Log/template_jikanwari_do.png) no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
     width: 35px;
     height: 35px;
     background-size: 30px 30px;
+    color: #13191b;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-property: all;
 }
 
-.link-item1-2{
-    overflow: hidden;
+.link1-2{
     background: url(../Log/calender_takujou.png) no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
     width: 35px;
     height: 35px;
     background-size: 30px 30px;
+    color: #13191b;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-property: all;
 }
 
-.link-item1-3{
-    overflow: hidden;
+.link1-3{
     background: url(../Log/haguruma-icon02_1200x630.jpg) no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
     width: 35px;
     height: 35px;
     background-size: 35px 30px;
+    color: #13191b;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-property: all;
+}
+
+.link-item2{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1rem;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin-left: 40px;
 }

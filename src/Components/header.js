@@ -12,14 +12,14 @@ class Header extends React.Component {
                     </h1>
                     <nav class="link">
                         <ul class="link1">
-                            <li class="link-item1-1">
-                                <Link to="/"></Link>
+                            <li class="link-item1-1" role="button">
+                                <Link to="/" class="link1-1"></Link>
                             </li>
                             <li class="link-item1-2">
-                                <Link to="/calendar"></Link>
+                                <Link to="/calendar" class="link1-2"></Link>
                             </li>
                             <li class="link-item1-3">
-                                <Link to="/setting"></Link>
+                                <Link to="/setting" class="link1-3"></Link>
                             </li>
                             // link of signin
                             <li class="link-item2">
