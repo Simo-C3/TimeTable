@@ -1,0 +1,145 @@
+.m-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+    border-bottom: thin ridge #cfcfcf;
+    display: block;
+}
+
+.m-header .sitelogo {
+    display: block;
+    float: left;
+    margin-top: 16px;
+    margin-left: 30%;
+    letter-spacing: 0.1em;
+    font-size: 2em;
+    margin-inline-start: 20px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.sitelogo {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.link {
+    float: right;
+    margin-top: 16px;
+    margin-right: 7%;
+    display: block;
+}
+
+.logolink {
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: url(../Log/logo192.png) no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: 30px 30px;
+    color: #13191b;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-property: all;
+}
+
+.link1 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0;
+    letter-spacing: -1em;
+    word-spacing: -1em;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.link-item1-1, .link-item1-2, .link-item1-3{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1rem;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin-left: 40px;
+    width: 35px;
+    height: 35px;
+    background-size: 30px 30px;
+}
+
+.link1-1{
+    background: url(../Log/template_jikanwari_do.png) no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 35px;
+    height: 35px;
+    background-size: 30px 30px;
+    color: #13191b;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-property: all;
+}
+
+.link1-2{
+    background: url(../Log/calender_takujou.png) no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 35px;
+    height: 35px;
+    background-size: 30px 30px;
+    color: #13191b;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-property: all;
+}
+
+.link1-3{
+    background: url(../Log/haguruma-icon02_1200x630.jpg) no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 35px;
+    height: 35px;
+    background-size: 35px 30px;
+    color: #13191b;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-property: all;
+}
+
+.link-item2{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1rem;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin-left: 40px;
+}
